@@ -1,0 +1,210 @@
+/******************************** TAG SELECTORS ***************************/
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color:  #d6e6f2;
+
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+  margin: 25px 0 0 0;
+  color:  #053742;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  color:  #053742;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3{
+   color: #053742;
+   font-size: 1.7rem;
+}
+
+.footer-link{
+  color: #05423a;
+  background-color:#d6e6f2;
+  margin: 10px;
+}
+
+/****navbar***/
+ul{
+  margin: 0;
+}
+
+li{
+  display: inline-block;
+}
+
+/******************************** CLASS SELECTORS ***************************/
+
+.nav-link{
+  color: #053742;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.nav-link:hover{
+  background-color: #66BFBF;
+  color: #d6e6f2;
+}
+
+.navbar{
+  text-align: center;
+  background-color: #d6e6f2;
+  margin: 0;
+  width: 100%;
+  height: 2.1rem;
+  padding-bottom: 0.5rem;
+  position: fixed;
+}
+
+.ul{
+  position: absolute;
+  right: 5%;
+  top:0.50rem;
+
+}
+
+.profile-image-small{
+  width: 7%;
+  position: fixed;
+  right: 90%;
+  top: 0.80rem;
+}
+
+/***navbar**/
+
+
+.top-container{
+background-color:   #d6e6f2;
+height: 750px;
+
+}
+
+.profile-container{
+  background-color: #A2DBFA;
+  height: 46.875rem;
+  padding-top: 5rem;
+}
+
+.aboutme{
+  padding: 6rem;
+}
+.profile-image{
+  padding-top: 5rem;
+  width: 28%
+}
+
+.p-profile1{
+  font-size: 1.7rem;
+}
+.p-profile2{
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 1.7rem;
+}
+
+.skills-container{
+    background-color: #d6e6f2 ;
+    padding: 50px;
+    font-size: 1.3rem;
+
+}
+
+.skills-image1{
+  width: 40%;
+  float: left;
+  margin:0 10px;
+
+}
+
+.skills-image2 {
+  width: 50%;
+  margin: 0 10px;
+  float: right;
+}
+
+.skill-row{
+  margin: 100px auto 200px auto;
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+}
+
+/*******************CONTAC info**********/
+
+.contact-me {
+  background-color: #d6e6f2;
+  height:  46.875rem;
+  padding-top: 2rem;
+}
+
+.bottom-container{
+    background-color: #b9d7ea;
+    margin: 0;
+}
+
+.form-container {
+  border: solid white;
+  width: 40%;
+  display: inline-block;
+  margin-top: 3.5rem;
+  background-color: #66BFBF;
+}
+
+.form-p{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.input-form{
+  display: inline-block;
+}
+
+.email-input{
+  width: 77.8%;
+}
+
+
+.input-firstname{
+  width: 38%;
+}
+
+.input-lastname{
+  width: 38%;
+}
+
+
+textarea{
+  width: 77.8%;
+}
+
+.getintouch{
+  font-size: 3.5rem;
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+
+.p-contact{
+  font-size: 1.5rem;
+}
+
+/********Social Media*******/
+
+.socialmedia-logo{
+  width: 3rem;
+}
+
+.social{
+  font-weight: bolder;
+}
+/*****work*****/
