@@ -1,7 +1,7 @@
 /******************************** TAG SELECTORS ***************************/
 
 body{
-    margin: 0;
+    margin: auto;
     text-align: center;
 }
 
@@ -89,7 +89,7 @@ height: 750px;
 
 /* About me */
 
-.profile-container{
+#profile-container{
   background-color: white;
   height: 38rem;
   padding-top: 5rem;
@@ -118,33 +118,7 @@ height: 750px;
   font-size: 1.4rem;
 }
 
-/* .skills-container{
-    background-color: #d6e6f2 ;
-    padding: 50px;
-    font-size: 1.3rem;
-
-}
-
-.skills-image1{
-  width: 40%;
-  float: left;
-  margin:0 10px;
-
-}
-
-.skills-image2 {
-  width: 50%;
-  margin: 0 10px;
-  float: right;
-}
-
-.skill-row{
-  margin: 100px auto 200px auto;
-  width: 70%;
-  text-align: left;
-  line-height: 2;
-} */
-/* skills */
+/**** Skills ****/
 
 #skills{
   background-color:  #ff4c68;
@@ -168,73 +142,45 @@ height: 750px;
   color: #053742;
 }
 
+/***** WORK *****/
 
-/*******************CONTAC info**********/
-
-.contact-me {
-  background-color: #d6e6f2;
-  height:  46.875rem;
-  padding-top: 2rem;
+#work{
+  background-color:white;
+  /* height: 30rem; */
+  text-align: center;
 }
+
+.work-h1{
+  margin: 0 5rem 0 5rem;
+  padding: 5rem 0 5rem 0;
+  color:  #ff4c68;
+}
+
+.work-image{
+  height: 20rem;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+/***** Contact *****/
+
+#contact{
+  background-color: #a2cefa;
+}
+
+.cta-h3{
+  padding: 5rem 0 3rem 0;
+  font-size: 3rem;
+}
+
+.btn{
+  margin-bottom: 3rem;
+}
+
+/* bottom */
 
 .bottom-container{
-    background-color: #b9d7ea;
-    margin: 0;
-}
-
-.form-container {
-  border: solid white;
-  width: 40%;
-  display: inline-block;
-  margin-top: 3.5rem;
-  background-color: #66BFBF;
-}
-
-.form-p{
-  padding: 0;
   margin: 0;
-  display: inline-block;
 }
-
-.input-form{
-  display: inline-block;
-}
-
-.email-input{
-  width: 77.8%;
-}
-
-
-.input-firstname{
-  width: 38%;
-}
-
-.input-lastname{
-  width: 38%;
-}
-
-
-.textarea{
-  width: 77.8%;
-}
-
-.getintouch{
-  font-size: 3.5rem;
-  margin-top: 1rem;
-  font-weight: bolder;
-}
-
-.p-contact{
-  font-size: 1.5rem;
-}
-
-/********Social Media*******/
-
-.socialmedia-logo{
-  width: 3rem;
-}
-
-.social{
-  font-weight: bolder;
-}
-/*****work*****/
