@@ -3,21 +3,22 @@
 body{
     margin: 0;
     text-align: center;
-    background-color:  #d6e6f2;
-
 }
 
 h1 {
   font-family: 'Satisfy', cursive;
   font-size: 4rem;
   margin: 25px 0 0 0;
-  color:  #053742;
+  color:  white;
+}
+h1:hover{
+  color: #053742;
 }
 
 h2 {
   font-size: 2.5rem;
   margin: 0;
-  color:  #053742;
+  color: white;
   font-weight: normal;
   line-height: 2;
 }
@@ -29,7 +30,6 @@ h3{
 
 .footer-link{
   color: #05423a;
-  background-color:#d6e6f2;
   margin: 10px;
 }
 
@@ -45,20 +45,19 @@ li{
 /******************************** CLASS SELECTORS ***************************/
 
 .nav-link{
-  color: #053742;
+  color: white;
   text-decoration: none;
   padding: 10px;
   font-weight: bolder;
   font-size: 1.5rem;
 }
 .nav-link:hover{
-  background-color: #66BFBF;
+  background-color: #053742;
   color: #d6e6f2;
 }
 
 .navbar{
   text-align: center;
-  background-color: #d6e6f2;
   margin: 0;
   width: 100%;
   height: 2.1rem;
@@ -84,35 +83,42 @@ li{
 
 
 .top-container{
-background-color:   #d6e6f2;
+background-color:  #ff4c68;
 height: 750px;
-
 }
 
+/* About me */
+
 .profile-container{
-  background-color: #A2DBFA;
-  height: 46.875rem;
+  background-color: white;
+  height: 38rem;
   padding-top: 5rem;
+}
+.about-container{
+  padding: 3rem 3rem 0 3rem;
+  text-align: center;
 }
 
 .aboutme{
-  padding: 6rem;
+  color:  #ff4c68;
 }
+
 .profile-image{
   padding-top: 5rem;
   width: 28%
 }
 
 .p-profile1{
-  font-size: 1.7rem;
+  font-size: 1.4rem;
+  padding-top: 4rem;
 }
 .p-profile2{
   margin: 0;
   padding-bottom: 0;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
-.skills-container{
+/* .skills-container{
     background-color: #d6e6f2 ;
     padding: 50px;
     font-size: 1.3rem;
@@ -137,7 +143,31 @@ height: 750px;
   width: 70%;
   text-align: left;
   line-height: 2;
+} */
+/* skills */
+
+#skills{
+  background-color:  #ff4c68;
+  padding-top: 4rem;
 }
+.skills-container{
+  padding: 6.5rem 14rem;
+  margin: auto;
+}
+
+ .each-skills{
+  padding: 4%;
+}
+
+.icon{
+  color:  #a2c1fa;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #053742;
+}
+
 
 /*******************CONTAC info**********/
 
@@ -184,7 +214,7 @@ height: 750px;
 }
 
 
-textarea{
+.textarea{
   width: 77.8%;
 }
 
